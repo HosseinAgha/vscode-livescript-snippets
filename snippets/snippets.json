@@ -1,0 +1,115 @@
+{
+  "Log to console": {
+    "prefix": "log",
+    "body": [
+      "console.log('$1');"
+    ],
+    "description": "Log output to console"
+  },
+  "Info to console": {
+    "prefix": "info",
+    "body": [
+      "console.info('$1');"
+    ],
+    "description": "Info output to console"
+  },
+  "Warn to console": {
+    "prefix": "warn",
+    "body": [
+      "console.warn('$1');"
+    ],
+    "description": "Warn output to console"
+  },
+  "Function Defination with dash": {
+    "prefix": "-",
+    "body": [
+      "($1) ->",
+      "  $2"
+    ],
+    "description": "Create a funciton defination"
+  },
+  "Function Defination with fn": {
+    "prefix": "fn",
+    "body": [
+      "->",
+      "  $2"
+    ],
+    "description": "Create a funciton defination"
+  },
+  "Bounded Function Defination with ~": {
+    "prefix": "~",
+    "body": [
+      "${1:($2) }~>",
+      "  $0"
+    ],
+    "description": "Create a funciton defination"
+  },
+  "Bounded Function Defination": {
+    "prefix": "fnb",
+    "body": [
+      "~>",
+      "  $0"
+    ],
+    "description": "Create a funciton defination"
+  },
+  "switch short expression": {
+    "prefix": "switch",
+    "body": [
+      "switch $1",
+      "| $2 => $3",
+      "| _ => $5"
+    ],
+    "description": "short switch statement"
+  },
+  "for in expression": {
+    "prefix": "for",
+    "body": [
+      "for $1 in $2",
+      "  $3"
+    ],
+    "description": "for in - array loop"
+  },
+  "for in expression with index": {
+    "prefix": "forl",
+    "body": [
+      "for ${1:val}, ${2:index} in $3",
+      "  $3"
+    ],
+    "description": "for in with index - array loop"
+  },
+  "for of expression": {
+    "prefix": "foro",
+    "body": [
+      "for ${1:key}, ${2:val} of ${3:object}",
+      "  $4"
+    ],
+    "description": "for of - object loop"
+  },
+  "for range expression": {
+    "prefix": "forr",
+    "body": [
+      "for $1 from $2 to $3",
+      "  $4"
+    ],
+    "description": "for from - range loop \n use `till` for exclusive"
+  },
+  "try catch": {
+    "prefix": "try",
+    "body": [
+      "try $1",
+      "  $2",
+      "catch $3",
+      "  $4"
+    ],
+    "description": "try catch"
+  },
+  "class definition": {
+    "prefix": "class",
+    "body": [
+      "class $1",
+      "  ${3:($2) }->",
+      "    $0"
+    ],
+    "description": "class definitaion"
+  }
+}

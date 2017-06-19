@@ -1,0 +1,1 @@
+snippets for livescript language commonly used features

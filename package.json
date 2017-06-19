@@ -1,0 +1,25 @@
+{
+    "name": "vscode-livescript-snippets",
+    "displayName": "LiveScript snippets",
+    "description": "Common Livescript Snippets",
+    "version": "0.0.1",
+    "publisher": "hosseinagha",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "keywords": [
+        "livescript",
+        "LiveScript"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "livescript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
