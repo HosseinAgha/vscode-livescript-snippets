@@ -2,10 +2,14 @@
     "name": "vscode-livescript-snippets",
     "displayName": "LiveScript snippets",
     "description": "Common Livescript Snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "hosseinagha",
     "engines": {
         "vscode": "^1.13.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HosseinAgha/vscode-livescript-snippets.git"
     },
     "keywords": [
         "livescript",
