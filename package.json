@@ -2,7 +2,7 @@
     "name": "vscode-livescript-snippets",
     "displayName": "LiveScript Snippets",
     "description": "Common Livescript Snippets",
-    "icon": "/icon/LLS.png",
+    "icon": "LSS.png",
     "version": "0.0.3",
     "publisher": "hosseinagha",
     "engines": {
